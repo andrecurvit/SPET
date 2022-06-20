@@ -2,6 +2,9 @@
 	margin: 0;
 	padding: 0;
 }
+.logo {
+  width: 100px;
+}
 
 a {
 	color: white;
@@ -24,18 +27,18 @@ nav {
 	justify-content: space-around;
 	align-items: center;
 	font-family: sans-serif;
-	background: gray;
+	background:  #13293D   /*gray*/;
 	height: 8vh;
 }
 
-.nav-list {
+.nav-lista {
 	list-style: none;
 	display: flex;
 }
 
-.nav-list li {
+.nav-lista li {
 	letter-spacing: 3px;
-	margin-left: 32px;
+	margin-left: 20px;
 }
 
 /*Mobile-menu*/
@@ -52,51 +55,61 @@ nav {
 	margin: 8px;
 }
 
-/********BOATÃO*******/
+/********BOTÃO*******/
 
-button {
+.agendar {
 	display: inline;
 	border-radius: 4px;
 	float: right;
-	background-color: transparent;
+	background-color: #E8F1F2;
 	border: 1px;
 	text-align: center;
-	font-size: 15px;
-	width: 120px;
+	width: 140px;
 	transition: all 0.5s;
 	cursor: pointer;
-	margin: 10px;
 	position: relative;
+  font-family: 'Helvetica', sans-serif;
   }
   
-  button a {
-	width: 135px;
-	color: #FFFFFF;
-	text-decoration: none;
-	cursor: pointer;
-	display: inline-block;
-	position: relative;
-	transition: 0.5s;
-  }
+.agendar a {
+  width: 155px;
+  color: #13293D;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+    
+.agendar a:after {
+  content: '\00bb';
+  opacity: 0;
+  transition: 0.5s;
+  text-align: center;
+}
   
-  button a:after {
-	content: '\00bb';
-	opacity: 0;
-	transition: 0.5s;
-  }
-  
-  button:hover a {
-	width: 135px;
+.agendar:hover a {
+	width: 155px;
 	padding-right: 15px;
-  }
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+}
   
-  button:hover a:after {
-	width: 135px;
+.agendar:hover a:after {
+	width: 155px;
 	opacity: 1;
 	right: 0;
-  }
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+}
 
-/* Seção Home */
+/* Seção Carrossel */
+
+#carrossel {
+  background: #f1a22b;
+}
 
 @media (max-width: 999px) {
 	body{
@@ -139,4 +152,11 @@ footer {
 
 .texto-central {
   text-align: center;
+}
+
+/* IMAGENS DESENVOLVEDORES */
+
+.imgdevs {
+  width: 30px;
+  height: 30px;
 }
