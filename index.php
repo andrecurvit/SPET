@@ -23,7 +23,7 @@
     			<li><a href="/">Sobre</a></li>
     			<li><a href="/">Projeto</a></li>
     			<li><a href="/">Contato</a></li>
-                <button class="agendar">AGENDE JÁ</button>
+                <button class="agendar"><a href=""> AGENDE JÁ!</a></button>
     		</ul>
     	</nav>
     </header>

@@ -52,6 +52,50 @@ nav {
 	margin: 8px;
 }
 
+/********BOATÃO*******/
+
+button {
+	display: inline;
+	border-radius: 4px;
+	float: right;
+	background-color: #59454597;
+	border: 1px;
+	text-align: center;
+	font-size: 20px;
+	width: 120px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 10px;
+	position: relative;
+  }
+  
+  button a {
+	width: 135px;
+	color: #FFFFFF;
+	text-decoration: none;
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+  }
+  
+  button a:after {
+	content: '\00bb';
+	opacity: 0;
+	transition: 0.5s;
+  }
+  
+  button:hover a {
+	width: 135px;
+	padding-right: 15px;
+  }
+  
+  button:hover a:after {
+	width: 135px;
+	opacity: 1;
+	right: 0;
+  }
+
 /* Seção Home */
 
 @media (max-width: 999px) {
