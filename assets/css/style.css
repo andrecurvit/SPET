@@ -2,8 +2,15 @@
 	margin: 0;
 	padding: 0;
 }
+
 .logo {
-  width: 100px;
+  position: relative;
+  width: 200px;
+  top: 20%;
+	font-size: 24px;
+	text-transform: uppercase;
+	/* letter-spacing: 4px; */
+  z-index: 1;
 }
 
 a {
@@ -12,36 +19,31 @@ a {
 	transition: 0.3s;
 }
 
-a:hover {
-	opacity: 0.7;
-}
-
-.logo {
-	font-size: 24px;
-	text-transform: uppercase;
-	letter-spacing: 4px;
-}
-
 nav {
+  position: relative;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	font-family: sans-serif;
-	background:  #13293D   /*gray*/;
+	background:  #f5b111;
 	height: 8vh;
 }
 
-.nav-lista {
+.nav-list {
 	list-style: none;
 	display: flex;
 }
 
-.nav-lista li {
+.nav-list li {
+  position: relative;
 	letter-spacing: 3px;
 	margin-left: 20px;
+  top: 10px;
 }
 
-/*Mobile-menu*/
+/****************************** Mobile-menu *********************************/
+/****************************** Mobile-menu *********************************/
+/****************************** Mobile-menu *********************************/
 
 .mobile-menu {
 	display: none;
@@ -55,25 +57,25 @@ nav {
 	margin: 8px;
 }
 
-/********BOTÃO*******/
+/**************************** BOTÃO *************************************/
+/**************************** BOTÃO *************************************/
+/**************************** BOTÃO *************************************/
 
 .agendar {
+  position: relative;
 	display: inline;
-	border-radius: 4px;
-	float: right;
-	background-color: #E8F1F2;
-	border: 1px;
+	border-radius: 20px;
+	border: 1px solid black;
 	text-align: center;
-	width: 140px;
+	width: 160px;
 	transition: all 0.5s;
 	cursor: pointer;
-	position: relative;
-  font-family: 'Helvetica', sans-serif;
+  padding-top: 5px;
+  font-family: Helvetica, sans-serif;
   }
   
 .agendar a {
   width: 155px;
-  color: #13293D;
   font-weight: bold;
   text-decoration: none;
   cursor: pointer;
@@ -92,8 +94,7 @@ nav {
 .agendar:hover a {
 	width: 155px;
 	padding-right: 15px;
-  text-decoration-line: underline;
-  text-decoration-style: solid;
+  animation: mymove 1s infinite;
 }
   
 .agendar:hover a:after {
@@ -101,18 +102,69 @@ nav {
 	opacity: 1;
 	right: 0;
   text-align: center;
-  text-decoration-line: underline;
-  text-decoration-style: solid;
 }
 
-/* Seção Carrossel */
+
+/*********************************************** COMEÇO ****************************/
+/*********************************************** COMEÇO ****************************/
+/*********************************************** COMEÇO ****************************/
+
+#home {
+  background-color: #f5b111;
+  width: 100%; height: 650px;
+  position: relative;
+  display: inline-flex;
+}
+
+/* FOTO DO DOG INICIAL */
+
+.dog1 {
+  position: relative;
+  top: 50pt;
+  width: 50%;  height: 65%;
+  box-shadow: 20px 20px 50px 10px rgb(51, 39, 13) inset;
+  border-radius: 500px 200px;
+}
+
+
+.card-initial {
+  top: 10%;
+  width: 38%;  height: 60%;
+  margin-left: 60px;
+  background: #96f2e9;
+  /* box-shadow: 40px 1px inset; */
+}
+
+
+/***************************** NOSSO ESPAÇO ************************************/
+/***************************** NOSSO ESPAÇO ************************************/
+/***************************** NOSSO ESPAÇO ************************************/
+
+.nosso-espaco {
+  width: 100%;
+  height: 650px;
+  background-image: url(https://thumbs.dreamstime.com/b/fundo-e-textura-do-gramado-da-grama-verde-para-o-papel-de-parede-apresenta%C3%A7%C3%A3o-122573665.jpg);
+  background-repeat: repeat;
+}
+
+/* .dog-espaco {
+  float: right;
+  background: #96f2e9;
+  bottom: 0;
+} */
+
+/********************************* Seção Carrossel *********************************/
+/********************************* Seção Carrossel *********************************/
+/********************************* Seção Carrossel *********************************/
 
 #carrossel {
   background: #f1a22b;
 }
 
-@media (max-width: 999px) {
+@media (max-width: 720px) {
 	body{
+    height: auto;
+    width: 100%;
 		overflow: hidden;
 	}
   .nav-list {
@@ -137,16 +189,14 @@ nav {
   }
 }
  
-.nav-list.active {
-	transform: translateX(0);
-}
 
-
-/* Footer */
+/************************************* Footer ******************************/
+/************************************* Footer ******************************/
+/************************************* Footer ******************************/
 
 footer {
   position: relative;
-  background-color: #FAAD59;
+  background-color: grey;
   text-align: center;
 }
 
@@ -160,3 +210,41 @@ footer {
   width: 30px;
   height: 30px;
 }
+
+
+
+
+
+/**************************** KEYFRAMES ********************************/
+/**************************** KEYFRAMES ********************************/
+/**************************** KEYFRAMES ********************************/
+
+@keyframes mymove {
+  0% {
+    transform: translateY(0px);
+    /* box-shadow: 0px 0px 0px gray inset; */
+    border-radius: 20px;
+    background-color: #23232e;
+  }
+  25% {
+    transform: translateY(0px);
+    /* box-shadow: 0px 30px 0px gray inset; */
+    border-radius: 20px;
+    background-color: #23232e;
+    width: 90%;
+  }
+  50% {
+    transform: translateY(0px);
+    /* box-shadow: 0px -10px 0px gray inset; */
+    border-radius: 20px;
+    background-color: #23232e;
+    width: 90%;
+  }
+  100% {
+    transform: translateY(0px);
+    /* box-shadow: 0px 0px 0px gray inset; */
+    border-radius: 20px;
+    background-color: #23232e;
+    width: 90%;
+  }
+ }
