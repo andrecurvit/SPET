@@ -30,71 +30,72 @@
     	</nav>
     </header>
     <section id="home">
-        <img src="assets/img/puppy.png" alt="" class="dog1">
+        <img src="assets/img/puppy.png" alt="Cachorro de perfil" class="dog1">
         <div class="card card-initial">
           <div class="card-body">
             <h5 class="card-title"></h5>
             <h6 class="card-subtitle mb-2 text-muted">Seu pet precisa de um hotel que nem você para descansar!!!</h6>
-            <p class="card-text">Nossos serviços contam com diversos tipos de brincadeiras, treinamentos¹, gincanas e muito mais!!!!  .</p>
-            <a href="#" class="card-link">Reservar agora!</a>
-            <a href="#" class="card-link">Conhecer mais!</a>
+            <p class="card-text">Tudo o que o seu pet precisa, você encontra aqui!!!</p>
+          </div>
+          <div class="botoes">
+            <button class="btn-home"><a href="#" class="card-link">Reservar agora!</a></button>
+            <button class="btn-home"><a href="#nosso-espaco" class="card-link">Conhecer mais!</a></button>
           </div>
         </div>
     </section>
     <section id="nosso-espaco">
-      <div class="nosso-espaco" style="display: inline-flex;">  
-        <h1>Um pouco mais do noss espaço</h1>
+      <div class="nosso-espaco">  
         <div class="card" style="width: 400px; top: 5%;">
-          <img src="assets/img/local1.jpg" class="card-img-bottom" alt="..." style="width: 400px; height: 320px;">
-          <div class="card-body">
-            <p class="card-text" style="color: blue;">Nosso espaço consiste em diversas baias para os seus pets!</p>
+          <img src="assets/img/local1.jpg" class="card-img-bottom" alt="...">
+          <div class="card-body lado-direito">
+            <p class="card-text">Nosso espaço consiste em diversas baias para os seus pets!</p>
           </div>
         </div>
         <div class="card" style="width: 400px; top: 5%;">
-          <img src="assets/img/local1.jpg" class="card-img-bottom" alt="..." style="width: 400px; height: 320px;">
-          <div class="card-body">
-            <p class="card-text" style="color: blue;">Descrição 2</p>
+          <img src="assets/img/local2.jpg" class="card-img-bottom" alt="...">
+          <div class="card-body lado-direito">
+            <p class="card-text">Gatis, viveiros, áreas para os pássaros, dentre diversas e diversas outras formas de abrigar nossos amiguinhos</p>
           </div>
         </div>
         <div class="card" style="width: 400px; top: 5%;">
-          <img src="assets/img/local1.jpg" class="card-img-bottom" alt="..." style="width: 400px; height: 320px;">
-          <div class="card-body">
-            <p class="card-text" style="color: blue;">Descrição 3</p>
+          <img src="assets/img/local3.jpg" class="card-img-bottom" alt="...">
+          <div class="card-body lado-direito">
+            <p class="card-text">Você pode nos fazer uma visita para conhecer o local onde seu amigo vai estar, saber como nós trabalhamos e muito mais!</p>
           </div>
         </div>
         <!-- <img src="assets/img/dog-espaco.png" alt="" class="dog-espaco"> -->
       </div>
     </section>
-    <section id="carrossel">
+    <section id="carrossel"> <!-- CARROSSEL DE DEPOIMENTOS -->
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="assets/img/cachorro1.webp" class="d-block w-100" alt="..." style="height: 400px">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/cachorro1.webp" class="d-block w-100" alt="..." style="height: 400px">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/cachorro2.webp" class="d-block w-100" alt="..." style="height: 400px">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/cachorro3.webp" class="d-block w-100" alt="..." style="height: 400px">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <div class="carousel-item">
-      <img src="assets/img/cachorro2.webp" class="d-block w-100" alt="..." style="height: 400px">
-    </div>
-    <div class="carousel-item">
-      <img src="assets/img/cachorro3.webp" class="d-block w-100" alt="..." style="height: 400px">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
     </section>
 
 
     <footer>
-        ©Copyright - <strong>Desenvolvedores</strong><br>
+        ©Copyright - <strong>Desenvolvedores:</strong><br>
         <a href="https://github.com/andrecurvit/"><img src="assets/img/Andre.png" alt="(Foto Andre Almeida)" class="imgdevs"> Andre Almeida</a><br> 
         <a href="https://github.com/EduardoShodi"><img src="assets/img/Eduardo.png" alt="(Foto Eduardo Sagaiama)" class="imgdevs"> Eduardo Sagaiama</a><br>
-        <p>Termos de serviço.</p>
+        <p><a href="#">Termos de serviço.</a></p>
     </footer>
 </body>
 </html>
