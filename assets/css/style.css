@@ -210,32 +210,48 @@ nav {
 /********************************* Seção Carrossel *********************************/
 
 #carrossel {
-  background: #f1a22b;
+  background-image: url(https://thumbs.dreamstime.com/b/fundo-e-textura-do-gramado-da-grama-verde-para-o-papel-de-parede-apresenta%C3%A7%C3%A3o-122573665.jpg);
+  background-repeat: repeat;
+  background-attachment: fixed;
 }
 
 
 div.quadrado {
-  border: 1px solid red;
+  background: #fff;
+  border: 1px solid #808080;
   width: 300px;
   height: 300px;
   position: absolute;
   left: 700px;
   border-radius: 30px 10px;
   margin-top: 50px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
+.perildono {
+  border: 2px solid red;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  float: left;
+}
 
-/*
 .imagemdog {
-    margin: 50px;
-    width: 300px;
-    border-radius: 40px;
     position: relative;
-    left: 100px;
-    top: -300px;
-
 }
-*/
+
+p.textoquadrado {
+  text-align: center;
+}
+
+h2.dono {
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
 
 @media (max-width: 720px) {
 	body{
@@ -243,9 +259,9 @@ div.quadrado {
     width: 100%;
 		overflow: hidden;
 	}
+
   .nav-list {
     position: absolute;
-    top: 8vh; /* 8vh para ficar logo abaixo do header*/
     right: 0;
     width: 50vw;
     height: 92vh;
