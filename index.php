@@ -80,7 +80,7 @@
               Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
             </p>
         </div>
-          <img src="assets/img/cachorro1.webp" class="d-block w-50" alt="..." style="height: 400px">
+          <img src="assets/img/breeds.png" class="d-block w-50" alt="..." style="height: 400px">
         </div>
         <div class="carousel-item">
         <div class="quadrado">
@@ -93,7 +93,7 @@
               Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
             </p>
         </div>
-          <img src="assets/img/cachorro2.webp" class="d-block w-50" alt="..." style="height: 400px">
+          <img src="assets/img/tongue.png" class="d-block w-50" alt="..." style="height: 600px">
         </div>
         <div class="carousel-item">
         <div class="quadrado">
@@ -106,7 +106,7 @@
               Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
             </p>
         </div>
-          <img src="assets/img/cachorro3.webp" class="d-block w-50" alt="..." style="height: 400px">
+          <img src="assets/img/bulldog.png" class="d-block w-50" alt="..." style="height: 400px">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
