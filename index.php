@@ -71,7 +71,7 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="quadrado">
-            <div class="perildono"></div>
+            <div class="pefildono"></div>
             <h2 class="dono">Patricia:</h2>
             <br>
             <br>
@@ -84,7 +84,7 @@
         </div>
         <div class="carousel-item">
         <div class="quadrado">
-            <div class="perildono"></div>
+            <div class="pefildono"></div>
             <h2 class="dono">Eduardo:</h2>
             <br>
             <br>
@@ -97,7 +97,7 @@
         </div>
         <div class="carousel-item">
         <div class="quadrado">
-            <div class="perildono"></div>
+            <div class="pefildono"></div>
             <h2 class="dono">Rodrigo:</h2>
             <br>
             <br>
