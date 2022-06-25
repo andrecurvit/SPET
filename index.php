@@ -100,6 +100,6 @@
         <a href="https://github.com/EduardoShodi"><img src="assets/img/Eduardo.png" alt="(Foto Eduardo Sagaiama)" class="imgdevs"> Eduardo Sagaiama</a><br>
         <p><a href="#">Termos de serviço.</a></p>
     </footer>
-    <script src="/assets/js/mobile-navbar.js"></script>
+    <script src="assets/js/mobile-navbar.js"></script>
 </body>
 </html>
