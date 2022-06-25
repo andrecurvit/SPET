@@ -129,12 +129,10 @@ nav {
 
 
 .card-initial {
-  top: 10%;
-  /* width: 30%;  height: 50%; */
-  /* margin-left: 60px; */
+  top: 7%;
+  margin-left: 60px;
   background: #FACC2E;
-  background-size: 10fr;
-  border-radius: 50px 50px 10px 10px; 
+  border-radius: 50px 50px 5px 5px; 
   box-shadow: 0px 50px 40px 0px;
 }
 
@@ -351,7 +349,7 @@ footer {
   }
   .nav-list {
     position: absolute;
-    /* top: 8vh; */
+    top: 8vh;
     right: 0;
     width: 50vw;
     height: 92vh;
@@ -361,6 +359,7 @@ footer {
     justify-content: space-around;
     transform: translateX(100%);
     transition: transform 0.3s ease-in;
+    z-index: 1;
   }
   .nav-list li {
     margin-left: 0;
@@ -368,6 +367,12 @@ footer {
   }
   .mobile-menu {
     display: block;
+  }
+  .text-initial {
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+    font-size: 6vh;
   }
 }
 
