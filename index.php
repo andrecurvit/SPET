@@ -34,8 +34,8 @@
         <div class="card card-initial">
           <div class="card-body">
             <h5 class="card-title"></h5>
-            <h6 class="card-subtitle mb-2 text-muted">Seu pet precisa de um hotel que nem você para descansar!!!</h6>
-            <p class="card-text">Tudo o que o seu pet precisa, você encontra aqui!!!</p>
+            <h6 class="card-subtitle mb-2 text-muted">Até 40% de desconto na primeira reserva!</h6>
+            <p class="card-text text-initial">Tudo que seu pet precisa você encontra aqui!</p>
           </div>
           <div class="botoes">
             <button class="btn-home"><a href="#" class="card-link">Reservar agora!</a></button>
@@ -100,5 +100,6 @@
         <a href="https://github.com/EduardoShodi"><img src="assets/img/Eduardo.png" alt="(Foto Eduardo Sagaiama)" class="imgdevs"> Eduardo Sagaiama</a><br>
         <p><a href="#">Termos de serviço.</a></p>
     </footer>
+    <script src="/assets/js/mobile-navbar.js"></script>
 </body>
 </html>

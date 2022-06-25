@@ -130,11 +130,19 @@ nav {
 
 .card-initial {
   top: 10%;
-  width: 38%;  height: 60%;
-  margin-left: 60px;
-  background: #F6FF2E;
+  /* width: 30%;  height: 50%; */
+  /* margin-left: 60px; */
+  background: #FACC2E;
+  background-size: 10fr;
   border-radius: 50px 50px 10px 10px; 
   box-shadow: 0px 50px 40px 0px;
+}
+
+.text-initial {
+  color: #fff;
+  text-align: left;
+  font-weight: bold;
+  font-size: 60px;
 }
 
 
@@ -316,8 +324,62 @@ footer {
   }
  }
 
+/********************************************************************************/
+/***********************************MEDIAS***************************************/
+/********************************************************************************/
 
+@media (max-width: 999px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav-list {
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    width: 50vw;
+    height: 92vh;
+    background: #23232e;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+  }
+  .nav-list li {
+    margin-left: 0;
+    opacity: 0;
+  }
+  .mobile-menu {
+    display: block;
+  }
+}
 
+.nav-list.active {
+  transform: translateX(0);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.mobile-menu.active .line1 {
+  transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2 {
+  opacity: 0;
+}
+
+.mobile-menu.active .line3 {
+  transform: rotate(45deg) translate(-5px, -7px);
+}
 
 /******************************** EDUARDO  ******************************/
 
