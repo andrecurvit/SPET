@@ -23,7 +23,7 @@
     			<li class="btn btn-outline-primary"><a href="#home">Home</a></li>
     			<li class="btn btn-outline-primary"><a href="#nosso-espaco">Nosso espaço</a></li>
     			<li class="btn btn-outline-primary"><a href="#">Sobre nós</a></li>
-    			<li class="btn btn-outline-primary"><a href="#">Depoimentos</a></li>
+    			<li class="btn btn-outline-primary"><a href="#carrossel">Depoimentos</a></li>
           <li class="btn btn-outline-primary"><a href="#">Contato</a></li>
           <li class="agendar"><a href="#"> Agende Já!</a></li>
     		</ul>
