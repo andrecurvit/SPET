@@ -194,14 +194,8 @@ nav {
   height: 650px;
   background-image: url(https://thumbs.dreamstime.com/b/fundo-e-textura-do-gramado-da-grama-verde-para-o-papel-de-parede-apresenta%C3%A7%C3%A3o-122573665.jpg);
   background-repeat: repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
-
-/* .dog-espaco {
-  float: right;
-  background: #96f2e9;
-  bottom: 0;
-} */
 
 /********************************* Seção Carrossel *********************************/
 /********************************* Seção Carrossel *********************************/
@@ -228,7 +222,7 @@ div.quadrado {
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
-.pefildono > img{
+.pefildono {
   border: 2px solid red;
   border-radius: 50%;
   width: 100px;
@@ -250,36 +244,6 @@ h2.dono {
   left: 20px;
 }
 
-
-@media (max-width: 720px) {
-	body{
-    height: auto;
-    width: 100%;
-		overflow: hidden;
-	}
-
-  .nav-list {
-    position: absolute;
-    right: 0;
-    width: 50vw;
-    height: 92vh;
-    background: #23232e;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    transform: translateX(100%);
-  }
-
-  .nav-list li {
-  	margin-left: 0;
-  	opacity: 0;
-  }
-  .mobile-menu {
-  	display: block;
-  }
-}
- 
-
 /************************************* Footer ******************************/
 /************************************* Footer ******************************/
 /************************************* Footer ******************************/
@@ -300,10 +264,6 @@ footer {
   width: 30px;
   height: 30px;
 }
-
-
-
-
 
 /**************************** KEYFRAMES ********************************/
 /**************************** KEYFRAMES ********************************/
@@ -355,7 +315,7 @@ footer {
 
 @media (max-width: 999px) {
   body {
-    overflow-x: hidden;
+    overflow-y: visible;
   }
   .nav-list {
     position: absolute;
@@ -403,5 +363,3 @@ footer {
 }
 
 /******************************** EDUARDO  ******************************/
-
-/* Eu mexi na parte do depoismento, mais ainda to pensado como vou fazer isso kkkkkk*/
