@@ -322,7 +322,17 @@ footer {
     width: 90%;
   }
  }
-
+ 
+ @keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
 /********************************************************************************/
 /***********************************MEDIA****************************************/
 /********************************************************************************/
@@ -336,7 +346,7 @@ footer {
     top: 8vh;
     right: 0;
     width: 50vw;
-    height: 92vh;
+    height: 77.5vh;
     background: #23232e;
     flex-direction: column;
     align-items: center;
@@ -362,17 +372,6 @@ footer {
 
 .nav-list.active {
   transform: translateX(0);
-}
-
-@keyframes navLinkFade {
-  from {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
 }
 
 .mobile-menu.active .line1 {
