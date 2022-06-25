@@ -129,12 +129,10 @@ nav {
 
 
 .card-initial {
-  top: 10%;
-  /* width: 30%;  height: 50%; */
-  /* margin-left: 60px; */
+  top: 7%;
+  margin-left: 60px;
   background: #FACC2E;
-  background-size: 10fr;
-  border-radius: 50px 50px 10px 10px; 
+  border-radius: 50px 50px 5px 5px; 
   box-shadow: 0px 50px 40px 0px;
 }
 
@@ -353,6 +351,12 @@ footer {
   }
   .mobile-menu {
     display: block;
+  }
+  .text-initial {
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+    font-size: 6vh;
   }
 }
 

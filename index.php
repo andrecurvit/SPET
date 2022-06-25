@@ -35,7 +35,7 @@
           <div class="card-body">
             <h5 class="card-title"></h5>
             <h6 class="card-subtitle mb-2 text-muted">Até 40% de desconto na primeira reserva!</h6>
-            <p class="card-text text-initial">Tudo que seu pet precisa você encontra aqui!</p>
+            <p class="card-text text-initial">O SPA que seu pet precisa você encontra aqui!</p>
           </div>
           <div class="botoes">
             <button class="btn-home"><a href="#" class="card-link">Reservar agora!</a></button>
