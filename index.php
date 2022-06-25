@@ -71,7 +71,9 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="quadrado">
-            <div class="pefildono"></div>
+            <div class="pefildono">
+              <img src="assets/img/pessoa1.webp">
+            </div>
             <h2 class="dono">Patricia:</h2>
             <br>
             <br>
@@ -84,7 +86,9 @@
         </div>
         <div class="carousel-item">
         <div class="quadrado">
-            <div class="pefildono"></div>
+            <div class="pefildono">
+              <img src="assets/img/pessoa2.webp">
+            </div>
             <h2 class="dono">Eduardo:</h2>
             <br>
             <br>
@@ -93,11 +97,13 @@
               Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
             </p>
         </div>
-          <img src="assets/img/cachorro2.webp" class="d-block w-50" alt="..." style="height: 400px">
+          <img src="assets/img/cachorro3.webp" class="d-block w-50" alt="..." style="height: 400px">
         </div>
         <div class="carousel-item">
         <div class="quadrado">
-            <div class="pefildono"></div>
+            <div class="pefildono">
+              <img src="assets/img/pessoa3.webp">
+            </div>
             <h2 class="dono">Rodrigo:</h2>
             <br>
             <br>
