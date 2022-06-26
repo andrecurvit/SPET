@@ -26,7 +26,7 @@ nav {
 	justify-content: space-around;
 	align-items: center;
 	font-family: sans-serif;
-	background:  #f5b111;
+	background-image: url(https://thumbs.dreamstime.com/b/fundo-e-textura-do-gramado-da-grama-verde-para-o-papel-de-parede-apresenta%C3%A7%C3%A3o-122573665.jpg);
 	height: 8vh;
 }
 
@@ -36,6 +36,7 @@ nav {
 }
 
 .nav-list li {
+  background: #0A3B0A;
   position: relative;
 	letter-spacing: 3px;
 	margin-left: 20px;
@@ -110,11 +111,12 @@ nav {
 /*********************************************** COMEÇO ****************************/
 
 #home {
-  background-color: #f5b111;
+  /* background-color: #f5b111; */
   width: 100%; height: 650px;
   position: relative;
   display: inline-flex;
   box-shadow: 80px 50px 40px 10px gray;
+  background-image: url(https://thumbs.dreamstime.com/b/fundo-e-textura-do-gramado-da-grama-verde-para-o-papel-de-parede-apresenta%C3%A7%C3%A3o-122573665.jpg);
 }
 
 /* FOTO DO DOG INICIAL */
@@ -123,17 +125,19 @@ nav {
   position: relative;
   top: 50pt;
   width: 50%;  height: 65%;
-  box-shadow: 20px 20px 50px 10px rgb(51, 39, 13) inset;
-  border-radius: 500px 200px;
+  /* box-shadow: 20px 20px 50px 10px rgb(51, 39, 13) inset; */
+  /*border-radius: 500px 200px; */
+  /* background-image: url(https://thumbs.dreamstime.com/b/fundo-e-textura-do-gramado-da-grama-verde-para-o-papel-de-parede-apresenta%C3%A7%C3%A3o-122573665.jpg); */
 }
 
 
 .card-initial {
   top: 7%;
   margin-left: 60px;
-  background: #FACC2E;
-  border-radius: 50px 50px 5px 5px; 
-  box-shadow: 0px 50px 40px 0px;
+  /* background-image: url(https://thumbs.dreamstime.com/b/fundo-e-textura-do-gramado-da-grama-verde-para-o-papel-de-parede-apresenta%C3%A7%C3%A3o-122573665.jpg); */
+  background: transparent;
+  /* border-radius: 50px 50px 5px 5px;  */
+  /* box-shadow: 0px 50px 40px 0px; */
 }
 
 .text-initial {
@@ -141,6 +145,7 @@ nav {
   text-align: left;
   font-weight: bold;
   font-size: 60px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
@@ -151,7 +156,6 @@ nav {
 .botoes{
   position: relative;
   display: inline-flex;
-  /* align-items: center; */
   top: -10px;
 }
 
@@ -194,14 +198,7 @@ nav {
   height: 650px;
   background-image: url(https://thumbs.dreamstime.com/b/fundo-e-textura-do-gramado-da-grama-verde-para-o-papel-de-parede-apresenta%C3%A7%C3%A3o-122573665.jpg);
   background-repeat: repeat;
-  background-attachment: fixed;
 }
-
-/* .dog-espaco {
-  float: right;
-  background: #96f2e9;
-  bottom: 0;
-} */
 
 /********************************* Seção Carrossel *********************************/
 /********************************* Seção Carrossel *********************************/
@@ -210,7 +207,7 @@ nav {
 #carrossel {
   background-image: url(https://thumbs.dreamstime.com/b/fundo-e-textura-do-gramado-da-grama-verde-para-o-papel-de-parede-apresenta%C3%A7%C3%A3o-122573665.jpg);
   background-repeat: repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
 
@@ -228,7 +225,7 @@ div.quadrado {
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
-.pefildono > img{
+.pefildono {
   border: 2px solid red;
   border-radius: 50%;
   width: 100px;
@@ -250,36 +247,6 @@ h2.dono {
   left: 20px;
 }
 
-
-@media (max-width: 720px) {
-	body{
-    height: auto;
-    width: 100%;
-		overflow: hidden;
-	}
-
-  .nav-list {
-    position: absolute;
-    right: 0;
-    width: 50vw;
-    height: 92vh;
-    background: #23232e;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    transform: translateX(100%);
-  }
-
-  .nav-list li {
-  	margin-left: 0;
-  	opacity: 0;
-  }
-  .mobile-menu {
-  	display: block;
-  }
-}
- 
-
 /************************************* Footer ******************************/
 /************************************* Footer ******************************/
 /************************************* Footer ******************************/
@@ -300,10 +267,6 @@ footer {
   width: 30px;
   height: 30px;
 }
-
-
-
-
 
 /**************************** KEYFRAMES ********************************/
 /**************************** KEYFRAMES ********************************/
@@ -403,5 +366,3 @@ footer {
 }
 
 /******************************** EDUARDO  ******************************/
-
-/* Eu mexi na parte do depoismento, mais ainda to pensado como vou fazer isso kkkkkk*/

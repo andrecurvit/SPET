@@ -2,7 +2,7 @@
 <html lang="pt-BR">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon" />
     <title>SPET - O melhor lugar para seus pets</title>
     <link rel="stylesheet" type="text/css" href="bootstrap5.2/css/bootstrap.min.css">
@@ -23,7 +23,7 @@
     			<li class="btn btn-outline-primary"><a href="#home">Home</a></li>
     			<li class="btn btn-outline-primary"><a href="#nosso-espaco">Nosso espaço</a></li>
     			<li class="btn btn-outline-primary"><a href="#">Sobre nós</a></li>
-    			<li class="btn btn-outline-primary"><a href="#">Depoimentos</a></li>
+    			<li class="btn btn-outline-primary"><a href="#carrossel">Depoimentos</a></li>
           <li class="btn btn-outline-primary"><a href="#">Contato</a></li>
           <li class="agendar"><a href="#"> Agende Já!</a></li>
     		</ul>
