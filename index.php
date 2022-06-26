@@ -73,48 +73,48 @@
           <div class="quadrado">
             <div class="pefildono">
               <img src="assets/img/pessoa1.webp">
-            </div>
+            </div><!--pefildono-->
             <h2 class="dono">Patricia:</h2>
-            <br>
             <br>
             <br>
             <p class="textoquadrado">
               Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
             </p>
-        </div>
+        </div><!--quadrado-->
           <img src="assets/img/breeds.png" class="d-block w-50" alt="..." style="height: 400px">
-        </div>
+        </div><!--carousel-item-->
+
+
         <div class="carousel-item">
         <div class="quadrado">
             <div class="pefildono">
               <img src="assets/img/pessoa2.webp">
-            </div>
+            </div><!--pefildono-->
             <h2 class="dono">Eduardo:</h2>
-            <br>
             <br>
             <br>
             <p class="textoquadrado">
               Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
             </p>
-        </div>
+        </div><!--quadrado-->
+          <img src="assets/img/tongue.png" class="d-block w-50" alt="..." style="height: 400px">
+        </div><!--carousel-item-->
 
-          <img src="assets/img/tongue.png" class="d-block w-50" alt="..." style="height: 600px">
-        </div>
         <div class="carousel-item">
         <div class="quadrado">
             <div class="pefildono">
               <img src="assets/img/pessoa3.webp">
-            </div>
+            </div><!--pefildono-->
             <h2 class="dono">Rodrigo:</h2>
-            <br>
             <br>
             <br>
             <p class="textoquadrado">
               Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
             </p>
-        </div>
+        </div><!--quadrado-->
           <img src="assets/img/bulldog.png" class="d-block w-50" alt="..." style="height: 400px">
-        </div>
+        </div><!--carousel-item-->
+
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
