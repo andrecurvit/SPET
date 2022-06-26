@@ -34,7 +34,7 @@
         <div class="card card-initial">
           <div class="card-body">
             <h5 class="card-title"></h5>
-            <h6 class="card-subtitle mb-2 text-muted">Até 40% de desconto na primeira reserva!</h6>
+            <h6 class="card-subtitle mb-2 text-muted oferta">Até 40% de desconto na primeira reserva!</h6>
             <p class="card-text text-initial">O SPA que seu pet precisa você encontra aqui!</p>
           </div>
           <div class="botoes">
@@ -67,64 +67,64 @@
       </div>
     </section>
     <section id="carrossel"> <!-- CARROSSEL DE DEPOIMENTOS -->
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="quadrado">
+              <div class="perfildono">
+                <img src="assets/img/pessoa1.webp">
+              </div><!--pefildono-->
+              <h2 class="dono">Patricia:</h2>
+              <br>
+              <br>
+              <p class="textoquadrado">
+                Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+              </p>
+          </div><!--quadrado-->
+            <img src="assets/img/breeds.png" class="d-block w-50" alt="..." style="height: 400px">
+          </div><!--carousel-item-->
+
+
+          <div class="carousel-item">
           <div class="quadrado">
-            <div class="pefildono">
-              <img src="assets/img/pessoa1.webp">
-            </div><!--pefildono-->
-            <h2 class="dono">Patricia:</h2>
-            <br>
-            <br>
-            <p class="textoquadrado">
-              Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-            </p>
-        </div><!--quadrado-->
-          <img src="assets/img/breeds.png" class="d-block w-50" alt="..." style="height: 400px">
-        </div><!--carousel-item-->
+              <div class="perfildono">
+                <img src="assets/img/pessoa2.webp">
+              </div><!--pefildono-->
+              <h2 class="dono">Eduardo:</h2>
+              <br>
+              <br>
+              <p class="textoquadrado">
+                Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+              </p>
+          </div><!--quadrado-->
+            <img src="assets/img/tongue.png" class="d-block w-50" alt="..." style="height: 400px">
+          </div><!--carousel-item-->
 
+          <div class="carousel-item">
+            <div class="quadrado">
+                <div class="perfildono">
+                  <img src="assets/img/pessoa3.webp">
+                </div><!--pefildono-->
+                  <h2 class="dono">Rodrigo:</h2>
+                  <br>
+                  <br>
+                  <p class="textoquadrado">
+                    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                  </p>
+            </div><!--quadrado-->
+              <img src="assets/img/bulldog.png" class="d-block w-50" alt="..." style="height: 400px">
+          </div><!--carousel-item-->
 
-        <div class="carousel-item">
-        <div class="quadrado">
-            <div class="pefildono">
-              <img src="assets/img/pessoa2.webp">
-            </div><!--pefildono-->
-            <h2 class="dono">Eduardo:</h2>
-            <br>
-            <br>
-            <p class="textoquadrado">
-              Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-            </p>
-        </div><!--quadrado-->
-          <img src="assets/img/tongue.png" class="d-block w-50" alt="..." style="height: 400px">
-        </div><!--carousel-item-->
-
-        <div class="carousel-item">
-        <div class="quadrado">
-            <div class="pefildono">
-              <img src="assets/img/pessoa3.webp">
-            </div><!--pefildono-->
-            <h2 class="dono">Rodrigo:</h2>
-            <br>
-            <br>
-            <p class="textoquadrado">
-              Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-            </p>
-        </div><!--quadrado-->
-          <img src="assets/img/bulldog.png" class="d-block w-50" alt="..." style="height: 400px">
-        </div><!--carousel-item-->
-
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
     </section>
 
 

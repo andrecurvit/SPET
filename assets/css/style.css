@@ -28,6 +28,7 @@ nav {
 	font-family: sans-serif;
 	background-image: url(https://thumbs.dreamstime.com/b/fundo-e-textura-do-gramado-da-grama-verde-para-o-papel-de-parede-apresenta%C3%A7%C3%A3o-122573665.jpg);
 	height: 8vh;
+  background-attachment: fixed;
 }
 
 .nav-list {
@@ -117,6 +118,7 @@ nav {
   display: inline-flex;
   box-shadow: 80px 50px 40px 10px gray;
   background-image: url(https://thumbs.dreamstime.com/b/fundo-e-textura-do-gramado-da-grama-verde-para-o-papel-de-parede-apresenta%C3%A7%C3%A3o-122573665.jpg);
+  background-attachment: fixed;
 }
 
 /* FOTO DO DOG INICIAL */
@@ -198,6 +200,7 @@ nav {
   height: 650px;
   background-image: url(https://thumbs.dreamstime.com/b/fundo-e-textura-do-gramado-da-grama-verde-para-o-papel-de-parede-apresenta%C3%A7%C3%A3o-122573665.jpg);
   background-repeat: repeat;
+  background-attachment: fixed;
 }
 
 /********************************* Seção Carrossel *********************************/
@@ -207,7 +210,7 @@ nav {
 #carrossel {
   background-image: url(https://thumbs.dreamstime.com/b/fundo-e-textura-do-gramado-da-grama-verde-para-o-papel-de-parede-apresenta%C3%A7%C3%A3o-122573665.jpg);
   background-repeat: repeat;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
 }
 
 
@@ -225,8 +228,8 @@ div.quadrado {
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
-.pefildono {
-  border: 2px solid red;
+.perfildono > img{
+  /*border: 2px solid red;*/
   border-radius: 50%;
   width: 100px;
   height: 100px;
@@ -253,7 +256,7 @@ h2.dono {
 
 footer {
   position: relative;
-  background-color: grey;
+  background-color: #0af147;
   text-align: center;
 }
 
