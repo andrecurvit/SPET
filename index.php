@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="bootstrap5.2/css/bootstrap.min.css">
     <script type="text/javascript" src="bootstrap/bootstrap5.2/js/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="bootstrap5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/9e6ae44592.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
     <body>
@@ -21,16 +22,17 @@
     		</div>    		
     		<ul class="nav-list">
     			<li class="btn btn-outline-primary"><a href="#home">Home</a></li>
-    			<li class="btn btn-outline-primary"><a href="#nosso-espaco">Nosso espaço</a></li>
-    			<li class="btn btn-outline-primary"><a href="#">Sobre nós</a></li>
+    			<!-- <li class="btn btn-outline-primary"><a href="#nosso-espaco">Nosso espaço</a></li>
+    			<li class="btn btn-outline-primary"><a href="#">Sobre nós</a></li> -->
     			<li class="btn btn-outline-primary"><a href="#carrossel">Depoimentos</a></li>
           <li class="btn btn-outline-primary"><a href="#">Contato</a></li>
           <li class="agendar"><a href="#"> Agende Já!</a></li>
+          <li><i class="fa-regular fa-user" style="position:relative;height:10px;widht:10px;background-color:transparent;"></i></li>
     		</ul>
     	</nav>
     </header>
     <section id="home">
-        <img src="assets/img/puppy.png" alt="Cachorro de perfil" class="dog1">
+        <img src="assets/img/labrador.png" alt="Cachorro de perfil" class="dog1">
         <div class="card card-initial">
           <div class="card-body">
             <h5 class="card-title"></h5>
@@ -63,7 +65,6 @@
             <p class="card-text">Você pode nos fazer uma visita para conhecer o local onde seu amigo vai estar, saber como nós trabalhamos e muito mais!</p>
           </div>
         </div>
-        <!-- <img src="assets/img/dog-espaco.png" alt="" class="dog-espaco"> -->
       </div>
     </section>
     <section id="carrossel"> <!-- CARROSSEL DE DEPOIMENTOS -->
@@ -73,18 +74,16 @@
             <div class="quadrado">
               <div class="perfildono">
                 <img src="assets/img/pessoa1.webp">
-              </div><!--pefildono-->
+              </div><!--pefil dono-->
               <h2 class="dono">Patricia:</h2>
               <br>
               <br>
               <p class="textoquadrado">
                 Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
               </p>
-          </div><!--quadrado-->
+            </div><!--quadrado-->
             <img src="assets/img/breeds.png" class="d-block w-50" alt="..." style="height: 400px">
           </div><!--carousel-item-->
-
-
           <div class="carousel-item">
           <div class="quadrado">
               <div class="perfildono">

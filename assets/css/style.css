@@ -10,7 +10,6 @@
   top: 20%;
 	font-size: 24px;
 	text-transform: uppercase;
-	/* letter-spacing: 4px; */
   z-index: 1;
 }
 
@@ -40,7 +39,7 @@ nav {
   background: #0A3B0A;
   position: relative;
 	letter-spacing: 3px;
-	margin-left: 20px;
+	margin-left: 20px; /*Espaçamento dos menus*/
   top: 10px;
 }
 
